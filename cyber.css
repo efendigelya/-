@@ -1,0 +1,303 @@
+.header
+{
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(219, 221, 234, 0.71);
+}
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  top: 40px;
+}
+input, button {
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+  border: 3px solid #c3c2e0;
+}
+button {
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+input:focus {
+  border-color: #726ec8;
+}
+.logo
+{
+    position: absolute;
+    width: 113px;
+    height: 112px;
+    left: 3%;
+    top: 5px;
+    
+    background: url(logo.png);    
+}
+.name
+{
+    position: absolute;
+    width: 175px;
+    height: 33px;
+    left: 12%;
+    top: 43px;
+    
+    font-family: 'Julee', cursive;
+    font-style: unset;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    
+    color: #000000;    
+}
+
+.lupa
+{
+    position: absolute;
+    width: 33px;
+    height: 27px;
+    left: 31%;
+    top: 46px;
+}
+.chel
+{
+    position: relative;
+    width: 60px;
+    height: 46px;
+    left: 81%;
+    top: 0px;
+}
+.cor
+{
+    position: relative;
+    width: 60px;
+    height: 47px;
+    left: 86%;
+    top: 0px;
+}
+.body
+{
+    position: absolute;
+    width: 1600px;
+    min-height: 100%;
+    
+    background: #FFFFFF;   
+}
+.k1
+{
+    position: absolute;
+    width: 194px;
+    height: 36px;
+    left: 30px;
+    top: 178px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    
+    color: #000000;
+}
+.k2
+{
+    position: absolute;
+    width: 194px;
+    height: 36px;
+    left: 306px;
+    top: 178px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    
+    color: #000000;
+}
+.k3
+{
+    position: absolute;
+    width: 194px;
+    height: 36px;
+    left: 582px;
+    top: 178px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    
+    color: #000000;
+}
+.f1
+{
+    position: absolute;
+    width: 315px;
+    height: 208px;
+    left: 255px;
+    top: 322px;
+    
+    background: url(торт.png);
+}
+.r1
+{
+    position: absolute;
+    width: 214px;
+    height: 29px;
+    left: 306px;
+    top: 541px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #000000;
+}
+.f2
+{
+    position: absolute;
+    width: 273px;
+    height: 208px;
+    left: 702px;
+    top: 322px;
+    
+    background: url(бенто.png);
+}
+.r2
+{
+    position: absolute;
+    width: 214px;
+    height: 29px;
+    left: 732px;
+    top: 540px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #000000;
+}
+.f3
+{
+    position: absolute;
+    width: 315px;
+    height: 234px;
+    left: 1108px;
+    top: 296px;
+    
+    background: url(пирожонное.png);
+}
+.r3
+{
+    position: absolute;
+    width: 214px;
+    height: 29px;
+    left: 1159px;
+    top: 542px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #000000;
+}
+.fn
+{
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    left: 15%;
+    top: 4%;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    
+    color: #000000;
+}
+.s1
+{
+    position: absolute;
+    width: 59px;
+    height: 34.95px;
+    left: 17%;
+    top: 40%;
+}
+.s2
+{
+    position: absolute;
+    width: 51px;
+    height: 34.95px;
+    left: 22%;
+    top: 40%;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.s3
+{
+    position: absolute;
+    width: 51px;
+    height: 34.95px;
+    left: 27%;
+    top: 40%;
+}
+.s4
+{
+    position: absolute;
+    width: 57.1px;
+    height: 36.7px;
+    top: 25%;
+    left: 60%;
+}
+.number
+{
+    position: absolute;
+    width: 263px;
+    height: 31px;
+    top: 25%;
+    left: 65%;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    
+    color: #000000;
+}
+.footer
+{
+    position: fixed;
+    width: 100%;
+    height: 177px;
+    top: 85%;
+    
+    background: rgba(204, 205, 217, 0.71);    
+}
