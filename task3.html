@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TASK 3</title>
+    <style>
+        div p {
+            background-color: rgb(196, 255, 241);
+        }
+        div h2{
+            background-color: rgb(0, 200, 255);
+        }
+
+        #test p{
+            background-color: rgb(220, 232, 245);
+        }
+        #test h2{
+            background-color: rgb(43, 43, 226);
+        }
+
+        .bbb{
+            background-color: rgb(176, 127, 255);
+        }
+
+        #test .bbb{
+            background-color: rgb(98, 0, 255);
+        }
+
+        p.bbb{
+            background-color: rgb(0, 79, 139);
+        }
+        h2.bbb{
+            background-color: rgb(245, 230, 250);
+        }
+        #test p.bbb{
+            background-color: deeppink;
+        }
+
+        div h2, p{
+            background-color: rgb(162, 0, 255);
+        }/*10*/
+
+        .bbb, .xxx{
+            font-style: italic;
+            padding: 5px
+        }
+
+        p.bbb, h2.xxx{
+            background-color: rgb(255, 0, 200);
+        }
+        #test p.bbb, #test p.xxx{
+            background-color: rgb(170, 144, 144);
+        }
+
+        .fff{
+            background-color: rgb(250, 0, 121);
+        }/*14*/
+        .fff p{
+            background-color: rgb(79, 47, 67);
+        }
+        p.fff{
+            background-color: rgb(255, 80, 168);
+        }
+
+        .fff .bbb{
+            background-color: rgb(128, 0, 55);
+        }
+
+        #test a:visited{
+            text-decoration: none;
+            color: red;
+        }
+
+        #test a:link{
+            text-decoration: underline;
+            color: rgb(236, 87, 87);
+        }
+
+        #test a:hover{
+            text-decoration: underline;
+            color: rgb(255, 72, 0);
+        }
+
+        a.www:visited, a.www:link {
+            text-decoration: none;
+            color: rgb(255, 123, 0);
+        }
+         a.www:hover{
+             text-decoration: underline;
+             color: rgb(255, 166, 0);
+         }
+
+         #test a.www:link{
+             color: rgb(210, 195, 140);
+         }
+
+        #test a.www:hover{
+            color: rgb(192, 192, 67);
+
+        }
+
+        #test a.www:visited{
+            color: rgb(221, 255, 0);
+        }
+
+        .eee a.www:visited{
+            color: rgb(135, 160, 95);
+        }
+
+        .eee a.www:link{
+            color: rgb(153, 255, 20);
+        }
+
+        .eee a.www:hover{
+            color: rgb(0, 255, 166);
+        }
+
+        p>i{
+            color: rgb(47, 79, 69);
+            background-color: white;
+        }
+
+        ul>li{
+            color: rgb(0, 139, 134);
+
+          }
+
+        p>a, .test{
+            caption-side: top;
+        }
+
+        b+i{
+            color: rgb(0, 60, 100);
+        }
+
+        #test b+i{
+            color: rgb(77, 88, 108);
+            font-family: Dubai;
+        }
+
+        ul+p{
+            color: rgb(57, 64, 78);
+            background-color: rgb(140, 105, 255);
+
+        }
+
+        h1~p{
+            color: rgb(165, 42, 153);
+            background-color: rgb(255, 255, 255);
+        }
+
+        #test h2 ~ p{
+            color: rgb(255, 0, 179);
+            background-color: rgb(255, 255, 255);
+        }
+
+        p * i {
+            color: rgb(238, 144, 144);
+            background-color: rgb(105, 105, 105);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>NUMBER 1</p>
+        <h2>NUMBER 2</h2>
+    </div>
+
+    <div id="test">
+        <p>NUMBER 3</p>
+        <h2>NUMBER 4</h2>
+    </div>
+
+    <span class="bbb">NUMBER 5</span>
+
+    <div id="test">
+        <div class="bbb">NUMBER 6</div>
+    </div>
+    <p class="bbb">NUMBER 7</p>
+    <h2 class="bbb">NUMBER 8</h2>
+    <div id="test">
+        <p class="bbb">NUMBER 9</p>
+    </div>
+    <div>
+        <h2>NUMBER 10</h2>
+        <p>NUMBER 10</p>
+    </div>
+    <span class="bbb">NUMBER 11</span>
+    <span class="xxx">NUMBER 11</span>
+
+    <p class="bbb">NUMBER 12</p>
+    <h2 class="xxx">NUMBER 12</h2>
+
+    <div id="test">
+        <p class="bbb">NUMBER 13</p>
+        <p class="xxx">NUMBER 13</p>
+    </div>
+
+    <div class="fff">
+        <span>NUMBER 14</span>
+        <p>NUMBER 15</p>
+    </div>
+
+    <p class="fff">NUMBER 16</p>
+
+    <p class="fff">
+        <span class="bbb">NUMBER 17</span>
+    </p>
+
+    <div class="fff">
+        <h2 class="bbb">NUMBER 18</h2>
+    </div>
+
+    <div id="test">
+        <a href="">NUMBER 19 </a>
+    </div>
+
+    <div class="www">
+        <a href="">NUMBER 20</a>
+    </div>
+
+    <div id="test">
+        <a class="www" href="">NUMBER 21</a>
+    </div>
+
+    <div class="eee">
+        <a class="www" href="">NUMBER 22</a>
+    </div>
+
+    <p>
+        <i>NUMBER 23</i>
+    </p>
+
+    <ul>
+        <li>NUMBER 24</li>
+    </ul>
+
+    <p>
+        <a href="">NUMBER 25</a>
+    </p>
+
+    <a class="test" href="">NUMBER 25</a>
+
+    <b>TEXT</b>
+    <i>NUMBER 26</i>
+
+    <div id="test">
+        <b>TEXT/b>
+        <i>NUMBER 27</i>
+    </div>
+
+    <ul>TEXT</ul>
+    <p>NUMBER 28</p>
+
+    <h1>TEXT</h1>
+    <p>NUMBER 29</p>
+    <div><p>TEXT</p></div>
+    <p>NUMBER 29</p>
+
+    <article id="test">
+        <h2>TEXT</h2>
+        <p>NUMBER 30</p>
+    </article>
+
+
+    <p>
+    <span>
+        <i>NUMBER 31</i>
+    </span>
+    </p>
+
+</body>
+</html>
